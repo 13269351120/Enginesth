@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Enginesth.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="src\Enginesth\Application.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -27,10 +24,19 @@
     <ClInclude Include="src\Enginesth\EntryPoint.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\Enginesth\Enginesth.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Enginesth\Log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Enginesth\Application.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Enginesth\Log.cpp">
+      <Filter>头文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
